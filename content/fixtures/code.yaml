@@ -1,0 +1,20 @@
+pipeline:
+  name: content-extraction
+  stages:
+    - id: collect
+      owner: intake
+      checks:
+        - file exists
+        - extension supported
+    - id: review
+      owner: quality
+      checks:
+        - extraction fixture marker: shared code sample
+        - expected snippet present
+    - id: publish
+      owner: indexing
+      checks:
+        - searchable text refreshed
+metadata:
+  fixture: code-yaml
+  version: 1

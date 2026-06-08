@@ -6,7 +6,7 @@ By Marcus Aurelius
 
 Public-domain source text:
 Project Gutenberg, `Meditations of the Emperor Marcus Aurelius Antoninus`
-https://www.gutenberg.org/files/55317/55317-h/55317-h.htm
+Source URL omitted so this fixture stays self-contained.
 
 
 Translation note:
@@ -23,7 +23,7 @@ formatting tests.
 ### On Meeting Difficult People
 
 
-> Say this to yourself in the morninsg: Today I shall have to do with meddlers,
+> Say this to yourself in the morning: Today I shall have to do with meddlers,
 > with the ungrateful, with the insolent, with the crafty, with the envious and
 > the selfish.
 >
@@ -164,6 +164,18 @@ Source: section 3
 
 
 Source: section 7
+
+
+### Curator Note
+
+
+The excerpt keeps several short passages together so extraction tests can verify
+headings, block quotes, and ordinary paragraphs in one document.
+
+
+During review, the archive team marked this paragraph as a parser coverage note
+because it appears after several nested sections rather than at the top of the
+file.
 
 
 ### On Changing Your Mind

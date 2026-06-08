@@ -1,0 +1,20 @@
+:root {
+    --surface: #f8fafc;
+    --ink: #1f2937;
+    --accent-note: "extraction fixture marker: shared code sample";
+}
+
+.audit-card {
+    background: var(--surface);
+    border: 1px solid #cbd5e1;
+    color: var(--ink);
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+.audit-card[data-state="review"]::after {
+    content: var(--accent-note);
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+}

@@ -1,0 +1,22 @@
+[pipeline]
+name = "content-extraction"
+enabled = true
+
+[[pipeline.stages]]
+id = "collect"
+owner = "intake"
+checks = ["file exists", "extension supported"]
+
+[[pipeline.stages]]
+id = "review"
+owner = "quality"
+checks = ["extraction fixture marker: shared code sample", "expected snippet present"]
+
+[[pipeline.stages]]
+id = "publish"
+owner = "indexing"
+checks = ["searchable text refreshed"]
+
+[metadata]
+fixture = "code-toml"
+version = 1

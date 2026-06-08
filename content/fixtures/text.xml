@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- extraction fixture marker -->
+<inventory generated="2026-06-05">
+    <location id="north-warehouse">
+        <manager>Receiving Team</manager>
+        <aisle code="A-12">
+            <item sku="BK-1001">
+                <name>Blue notebook</name>
+                <quantity unit="each">42</quantity>
+                <status>available</status>
+            </item>
+            <item sku="PN-2040">
+                <name>Black pen</name>
+                <quantity unit="box">18</quantity>
+                <status>review</status>
+                <metadata>
+                    <notes>
+                        <note author="quality">Carton count matched the receiving log.</note>
+                        <note author="archive">life is but an instant; his substance</note>
+                    </notes>
+                </metadata>
+            </item>
+        </aisle>
+    </location>
+</inventory>

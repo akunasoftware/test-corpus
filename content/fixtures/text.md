@@ -3,8 +3,8 @@
 By Marcus Aurelius
 
 Public-domain source text:
-Project Gutenberg, `Meditations of the Emperor Marcus Aurelius Antoninus`
-https://www.gutenberg.org/files/55317/55317-h/55317-h.htm
+Project Gutenberg, `Meditations of the Emperor Marcus Aurelius Antoninus`.
+Source URL omitted so this fixture stays self-contained.
 
 Translation note:
 George W. Chrystal's 1902 rendering, based on the Foulis translation of 1742.
@@ -127,6 +127,15 @@ Source: section 3
 > Suppress "I am hurt!" and you suppress the injury.
 
 Source: section 7
+
+### Curator Note
+
+The excerpt keeps several short passages together so extraction tests can verify
+headings, block quotes, and ordinary paragraphs in one document.
+
+During review, the archive team marked this paragraph as a parser coverage note
+because it appears after several nested sections rather than at the top of the
+file.
 
 ### On Changing Your Mind
 

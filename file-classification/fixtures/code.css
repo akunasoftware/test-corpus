@@ -1,8 +1,0 @@
-/* extraction fixture marker: shared code sample */
-:root {
-    --message: "shared code sample";
-}
-
-body::before {
-    content: var(--message);
-}

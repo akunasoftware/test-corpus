@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- extraction fixture marker -->
+<rss version="2.0">
+    <channel>
+        <title>Operations Updates</title>
+        <link>https://example.test/operations</link>
+        <description>Short internal operations updates.</description>
+        <item>
+            <title>Inventory Review Complete</title>
+            <link>https://example.test/operations/inventory-review</link>
+            <description>The quarterly inventory review finished without blockers.</description>
+            <category>warehouse</category>
+            <guid isPermaLink="false">operations-2026-06-inventory-review</guid>
+            <comments>Archive note added after reconciliation: life is but an instant; his substance.</comments>
+            <pubDate>Fri, 05 Jun 2026 09:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
